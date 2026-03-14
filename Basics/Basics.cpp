@@ -14,15 +14,15 @@ int personalityNum(int sum){
 }
 string personality(int sum){
     switch(sum){
-        case 1: return "Leader, independent, ambitious";
-        case 2: return "Diplomatic, cooperative, sensitive";
-        case 3: return "Creative, expressive, optimistic";
-        case 4: return "Hardworking, practical, disciplined";
-        case 5: return "Adventurous, energetic, freedom loving";
-        case 6: return "Responsible, caring, family oriented";
-        case 7: return "Analytical, spiritual, thoughtful";
-        case 8: return "Powerful, confident, success driven";
-        case 9: return "Compassionate, generous, humanitarian";
+        case 1: return "The Leader";
+        case 2: return "The Peacemaker";
+        case 3: return "The Creative Communicator";
+        case 4: return "The Builder";
+        case 5: return "The Free Soul";
+        case 6: return "The Nurturer";
+        case 7: return "The Seeker";
+        case 8: return "The Powerhouse";
+        case 9: return "The Humanitarian";
         default: return "Invalid";
     }
 }
